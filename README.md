@@ -77,6 +77,7 @@ Handball-Video-Analysis/
 │   ├── test_video_processor.py
 │   └── test_statistics.py
 ├── main.py                       # Main application entry point
+├── example.py                    # Example usage script
 ├── requirements.txt              # Python dependencies
 └── README.md
 ```
@@ -118,6 +119,20 @@ stats.print_summary()
 # Clean up
 processor.release()
 ```
+
+## Running the Example
+
+Try out the included example that creates a sample video and analyzes it:
+
+```bash
+python example.py
+```
+
+This will demonstrate the library's capabilities by:
+1. Creating a sample video with moving objects
+2. Analyzing the video
+3. Displaying statistics
+4. Cleaning up temporary files
 
 ## Running Tests
 
